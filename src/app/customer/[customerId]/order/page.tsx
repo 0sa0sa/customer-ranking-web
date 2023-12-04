@@ -1,9 +1,9 @@
 "use client";
 import { useParams } from "next/navigation";
 import { useEffect } from "react";
+import { url } from "../../../../../constants/url";
 
-const url = "http://localhost:3000";
-
+// TODO: このページはまだ作っていない
 export default function Order() {
   const { customerId } = useParams();
   useEffect(() => {
