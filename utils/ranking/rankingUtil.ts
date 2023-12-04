@@ -41,6 +41,7 @@ export const getRankingBarStyle = (
     zIndex: getRankingBarZIndex(color),
     borderRadius: "8px",
     border: "1px solid black",
+    display: totalPayment === 0 && color === "CUSTOMER" && "none",
   } as const;
 };
 
